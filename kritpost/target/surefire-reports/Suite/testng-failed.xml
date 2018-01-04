@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.kritpost.tests.OwnerCreatingCampaign_Test">
+        <methods>
+          <include name="preCondition"/>
+          <include name="loginTest"/>
+          <include name="creatingCampaign"/>
+          <include name="logoutTest"/>
+          <include name="postConditions"/>
+        </methods>
+      </class> <!-- com.kritpost.tests.OwnerCreatingCampaign_Test -->
+      <class name="com.kritpost.tests.OwnerEditingCampaign_Test">
+        <methods>
+          <include name="preCondition"/>
+          <include name="loginTest"/>
+          <include name="edit"/>
+          <include name="logoutTest"/>
+          <include name="postConditions"/>
+        </methods>
+      </class> <!-- com.kritpost.tests.OwnerEditingCampaign_Test -->
+      <class name="com.kritpost.tests.OwnerDeleteCampaign_Test">
+        <methods>
+          <include name="preCondition"/>
+          <include name="loginTest"/>
+          <include name="logoutTest"/>
+          <include name="ownerDeletingCampaign"/>
+          <include name="postConditions"/>
+        </methods>
+      </class> <!-- com.kritpost.tests.OwnerDeleteCampaign_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
