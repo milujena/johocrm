@@ -28,7 +28,7 @@ public class ListenerTest implements ITestListener
 	@Override
 	public void onTestFailure(ITestResult result) 
 	{
-String name = result.getMethod().getMethodName();
+       String name = result.getMethod().getMethodName();
 		
 		EventFiringWebDriver e = new EventFiringWebDriver(BaseTest.driver);
 		File src = e.getScreenshotAs(OutputType.FILE);
